@@ -40,3 +40,8 @@ Os endpoints disponíveis no código são:
 
 Lembre-se que os endpoints soma e sub possuem variáveis como entrada (`op1` e `op2`)
 <img width="462" height="109" alt="image" src="https://github.com/user-attachments/assets/3bc9cfa2-d306-4952-86ef-31f009f20244" />
+
+## Atividade
+
+Agora, adicione os endpoints `div` e `mult` ao projeto da aplicação em Django, alterando os arquivos `calcapi/api/views.py` e `calcapi/api/urls.py`.  Caso seja necessário, implemente as alterações. 
+Teste as suas modificações no navegador ou com um cliente de API, como o Postman, Insomnia ou EchoAPI. 
