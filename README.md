@@ -22,21 +22,20 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-Rodando o servidor
+Para executar a aplicação no servidor de desenvolvimento, use o comando `runserver`
 ```
-python manage.py runserver 0.0.0.0:8000
-```
-
-Caso a porta 8000 não esteja disponível, execute na porta 80 seguinto os comandos abaixos:
-```
-sudo su
-source venv/bin/activate
-python manage.py runserver 0.0.0.0:80
-
+python manage.py runserver
 ```
 
-Endpoints disponíveis
+Se estiver executando na AWS, use ``python manage.py runserver 0.0.0.0:8080`` ou alguma outra porta que esteja acessível. 
+
+<img width="891" height="247" alt="image" src="https://github.com/user-attachments/assets/3ab728b6-b8e0-484e-8448-84eb7386a2cd" />
+
+
+Os endpoints disponíveis no código são: 
 - http://DNS_AWS:PORTA/api/calc
 - http://DNS_AWS:PORTA/api/soma
 - http://DNS_AWS:PORTA/api/sub
 
+Lembre-se que os endpoints soma e sub possuem variáveis como entrada (`op1` e `op2`)
+<img width="462" height="109" alt="image" src="https://github.com/user-attachments/assets/3bc9cfa2-d306-4952-86ef-31f009f20244" />
