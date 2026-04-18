@@ -27,12 +27,13 @@ Para executar a aplicação no servidor de desenvolvimento, use o comando `runse
 python manage.py runserver
 ```
 
-Se estiver executando na AWS, use ``python manage.py runserver 0.0.0.0:8080`` ou alguma outra porta que esteja acessível. 
-
+Se estiver executando na AWS, use ``python manage.py runserver 0.0.0.0:8080`` ou outra porta acessível no computador. 
 <img width="891" height="247" alt="image" src="https://github.com/user-attachments/assets/3ab728b6-b8e0-484e-8448-84eb7386a2cd" />
 
 
 Os endpoints disponíveis no código são: 
+<img width="351" height="185" alt="image" src="https://github.com/user-attachments/assets/ac9ccfdd-88d2-4117-b002-652a552b31b1" />
+
 - http://DNS_AWS:PORTA/api/calc
 - http://DNS_AWS:PORTA/api/soma
 - http://DNS_AWS:PORTA/api/sub
